@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Steven Passey | Basic-Portfolio</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-image: url('./assets/images/washed1920x1080.jpg');">
+	<div id="fixed-header">
+	</div>
+
+		<header class="container-fluid">	
+			<div class="row">
+				<div id="header-bar" class="col-sm-12 col-md-8 text-center">
+					<div class="row text-nowrap">
+						<div id="name-plate" class="col-sm-5 col-md-7 col-lg-6 col-3">
+							<h1>Steven Passey</h1>
+						</div>
+						<div id="nav-plate" class="col-12 col-sm-12 ml-auto">
+							<nav class="navbar navbar-expand-lg navbar-light">
+  								<button id="nav-button" class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    									<span class="navbar-toggler-icon"></span>
+  								</button>
+
+  								<div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
+    									<ul class="navbar-nav ml-auto">
+      									<li class="nav-item">
+        										<a class="nav-link" href="index.html" id="home-button">About</a>
+      									</li>
+      									<li class="nav-item">
+        										<a class="nav-link" href="portfolio.html" id="p-button">Portfolio</a>
+      									</li>
+										<li class="nav-item active">
+        										<a class="nav-link" href="contact.html" id="contact-button">Contact <span class="sr-only">(current)</span></a>
+      									</li>
+    									</ul>
+  								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+			<div>
+		</header>
+
+	<main class="container-fluid">
+		<div class="row">
+			<div id="main-section" class="col-sm-12 col-md-8">
+				<form name="contactForm" action="javascript:window.console.log('Submit');">
+					<h1>Contact</h1>
+					<hr>
+					<p style="height: 1px;" class="mb-2">
+						<div class="input-group mb-3" style="width: 94%; margin: 0 auto;">
+ 							<div class="input-group-prepend">
+    								<span class="input-group-text" id="basic-addon1">
+									<select style="background-color: inherit; border: none; color: #495057">
+										<option selected>Prefix</option>
+										<option>Mr.</option>
+										<option>Mrs.</option>
+									</select>
+								</span>
+  							</div>
+  							<input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+						</div>
+					</p>
+					<p>
+						<div class="input-group mb-3" style="width: 94%; margin: 0 auto;">
+ 							<div class="input-group-prepend">
+    								<span class="input-group-text" id="basic-addon2">
+									email@domain.com
+								</span>
+  							</div>
+  							<input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+						</div>
+					</p>
+					<p>
+						<div class="input-group" style="width: 94%; margin: 0 auto;">
+  							<div class="input-group-prepend">
+   								<span class="input-group-text">Message</span>
+  							</div>
+  							<textarea class="form-control" aria-label="Message" style="resize: none;"></textarea>
+						</div>
+					</p>
+					<br>
+					<p>
+						<button id="submit-button" class="btn btn-primary mr-auto" style="display: block;" type="Submit">Submit</button>
+					</p>
+				</form>
+			</div>
+		</div>
+	</main>
+	<p></p><br><br><Br>
+	<footer class="w-100">
+		Copyright &copy; 2018
+	</footer>
+</body>
+</html>
